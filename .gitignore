@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# macOS
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Ignore large output by default
+strategy_output.csv
+
+# VS Code
+.vscode/
+
+# Git LFS attributes (if using LFS for large files)
+.gitattributes
