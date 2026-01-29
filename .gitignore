@@ -1,29 +1,75 @@
-# Byte-compiled / optimized / DLL files
+# Data files
+*.csv
+!README.md
+!requirements.txt
+!STRATEGY_DETAILS.md
+
+# Documentation formats (presentations)
+*.pdf
+*.ppt
+*.pptx
+*.odp
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# Environments
-.env
-.venv
-env/
+# Virtual environments
 venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
 
-# macOS
-.DS_Store
-
-# Logs and databases
-*.log
-*.sqlite
-
-# Ignore large output by default
-strategy_output.csv
-
-# VS Code
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
 
-# Git LFS attributes (if using LFS for large files)
-.gitattributes
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.pot
+*.mo
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Data directories
+data/
+raw_data/
