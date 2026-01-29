@@ -184,39 +184,39 @@ Each 5-second bar is mapped to its 30-minute signal bar using **causal floor ali
 
 ## Key Features
 
-### ✅ Strictly Causal Design
+###  Strictly Causal Design
 
 - No look-ahead bias
 - PCA fitted on past data only
 - Z-scores computed using lagged windows
 - Positions based on prior bar closes
 
-### ✅ Market-Neutral Cross-Sectional
+###  Market-Neutral Cross-Sectional
 
 - Zero net USD exposure at every bar
 - Dollar-neutral long-short portfolio
 - Neutrality enforced mathematically at each step
 
-### ✅ Cost-Resilient
+###  Cost-Resilient
 
 - Gross Sharpe: **3.81** (annualized)
 - Net Sharpe @ 1.0bp: **1.99** (after realistic FX costs)
 - Net Sharpe @ 2.0bp: **0.16** (remains profitable even under stress)
 
-### ✅ Holding Constraints
+###  Holding Constraints
 
 - Minimum 3-hour holding period
 - Reduces whipsaws and transaction costs
 - Average holding time: **~6-8 hours**
 - Trades per day: **~24-25**
 
-### ✅ Robust to Market Regimes
+###  Robust to Market Regimes
 
 - Positive returns in 2011-2014, 2015-2018, 2019-2020, 2021-2024
 - Stability ratio > 0.8 (consistent performance across periods)
 - Drawdown controlled (max DD: **-0.14**)
 
-### ✅ Classifier-Enhanced
+###  Classifier-Enhanced
 
 - Modulates position sizing based on continuation likelihood
 - Preserves entry timing (no trade skipping)
